@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>胜泰生科销售训练器</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Local Sales Trainer</p>
+          <h1>胜泰生科销售训练器</h1>
+          <p class="hero-text">
+            本地离线训练，围绕光激项目、竞品、销售话术、合同边界和价格锚点持续出题。
+            答错会即时纠正，并自动把薄弱点拉回高频复训。
+          </p>
+          <div class="hero-badges">
+            <span id="heroSummaryProjects" class="badge"></span>
+            <span id="heroSummaryAssays" class="badge"></span>
+            <span id="heroSummaryCompetitors" class="badge"></span>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="hero-card">
+            <p class="hero-card-label">训练闭环</p>
+            <ol>
+              <li>出题</li>
+              <li>作答</li>
+              <li>纠正</li>
+              <li>复训</li>
+            </ol>
+          </div>
+          <div class="hero-card accent">
+            <p class="hero-card-label">重点模式</p>
+            <p>自适应刷题 / 错题重练 / 模拟销售 / 考试模式</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <section class="panel">
+            <div class="panel-head">
+              <h2>训练模式</h2>
+              <span id="currentModeLabel" class="mini-tag">自适应刷题</span>
+            </div>
+            <div id="modeButtons" class="mode-grid"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <h2>训练过滤</h2>
+            </div>
+            <label class="field">
+              <span>题型</span>
+              <select id="kindFilter">
+                <option value="all">全部题型</option>
+                <option value="choice">选择题</option>
+                <option value="text">文本题</option>
+                <option value="keyword">模拟问答</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>模块</span>
+              <select id="categoryFilter"></select>
+            </label>
+            <label class="field">
+              <span>标签</span>
+              <select id="tagFilter"></select>
+            </label>
+            <div class="action-row">
+              <button id="nextQuestionBtn" class="primary">开始 / 下一题</button>
+              <button id="resetSessionBtn" class="secondary">清空本次统计</button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <h2>即时统计</h2>
+            </div>
+            <div id="quickStats" class="stats-grid"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <h2>待复训</h2>
+            </div>
+            <div id="retryQueue" class="queue-list empty">当前没有待复训题。</div>
+          </section>
+        </aside>
+
+        <main class="main">
+          <nav class="tabs">
+            <button class="tab is-active" data-view="train">训练</button>
+            <button class="tab" data-view="knowledge">知识库</button>
+            <button class="tab" data-view="stats">掌握度</button>
+          </nav>
+
+          <section id="trainView" class="view is-active">
+            <article class="question-card">
+              <div class="question-meta">
+                <div class="meta-left">
+                  <span id="questionCategory" class="meta-pill">等待开始</span>
+                  <span id="questionKind" class="meta-pill light"></span>
+                </div>
+                <div id="questionTags" class="meta-right"></div>
+              </div>
+              <h2 id="questionPrompt" class="question-prompt">点击左侧“开始 / 下一题”，进入训练。</h2>
+              <p id="questionSource" class="question-source"></p>
+
+              <div id="answerArea" class="answer-area"></div>
+
+              <div class="question-actions">
+                <button id="submitAnswerBtn" class="primary">提交答案</button>
+                <button id="revealAnswerBtn" class="secondary">我不会，直接看答案</button>
+              </div>
+
+              <div id="feedbackBox" class="feedback hidden"></div>
+            </article>
+          </section>
+
+          <section id="knowledgeView" class="view">
+            <div class="library-toolbar">
+              <label class="field grow">
+                <span>搜索</span>
+                <input id="librarySearch" type="search" placeholder="搜代码、中文名、竞品、关键词">
+              </label>
+              <label class="field">
+                <span>知识分区</span>
+                <select id="librarySection"></select>
+              </label>
+            </div>
+            <div id="knowledgeCards" class="knowledge-grid"></div>
+          </section>
+
+          <section id="statsView" class="view">
+            <div id="summaryCards" class="summary-grid"></div>
+            <div class="panel stats-panel">
+              <div class="panel-head">
+                <h2>模块掌握度</h2>
+              </div>
+              <div id="categoryStats" class="category-stats"></div>
+            </div>
+            <div class="stats-bottom">
+              <div class="panel">
+                <div class="panel-head">
+                  <h2>当前薄弱点</h2>
+                </div>
+                <div id="weakQuestions" class="weak-list empty">还没有薄弱题数据。</div>
+              </div>
+              <div class="panel">
+                <div class="panel-head">
+                  <h2>数据管理</h2>
+                </div>
+                <p class="muted">
+                  训练记录默认保存在浏览器本地，不上传网络。导出后可备份，清空会删除本地掌握度数据。
+                </p>
+                <div class="action-row">
+                  <button id="exportProgressBtn" class="secondary">导出记录</button>
+                  <button id="resetProgressBtn" class="danger">清空全部记录</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

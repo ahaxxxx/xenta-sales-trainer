@@ -588,6 +588,9 @@ function renderKnowledge() {
       title: item.name,
       facts: [
         ["分段", item.segment],
+        ["关联代理商", item.localDistributor],
+        ["厂家 / 国家", item.maker],
+        ["证据等级", item.evidenceLevel],
         ["定位", item.style],
         ["方法学 / 形态", item.form],
         ["温控口径", item.temp],
@@ -607,9 +610,11 @@ function renderKnowledge() {
         ["更适合的客户 / 场景", item.fit],
         ["可攻点 / 互补位", item.attack],
         ["销售切入", item.pitch],
+        ["现场必须问", item.fieldQuestions],
+        ["不要这样说", item.doNotSay],
         ["一句话记忆", item.memory],
         ["资料口径", item.sourceNote],
-      ],
+      ].filter(([, value]) => value !== undefined && value !== null && String(value).trim() !== ""),
       tags: [item.segment, "竞品"],
     }));
   } else if (section === "features") {

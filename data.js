@@ -1,13 +1,13 @@
 window.SALES_TRAINER_DATA = {
   "name": "胜泰生科销售训练器",
-  "generatedAt": "2026-04-28 15:27:55",
+  "generatedAt": "2026-07-13 10:01:40",
   "summary": {
     "transferredCount": 24,
     "soonCount": 4,
     "assayCount": 66,
     "ceCount": 64,
     "firstBatchCount": 9,
-    "competitorCount": 11
+    "competitorCount": 21
   },
   "ui": {
     "modes": [
@@ -89,7 +89,7 @@ window.SALES_TRAINER_DATA = {
       "assayCount": 66,
       "ceCount": 64,
       "firstBatchCount": 9,
-      "competitorCount": 11
+      "competitorCount": 21
     },
     "mainProjects": [
       {
@@ -103,6 +103,16 @@ window.SALES_TRAINER_DATA = {
         "status": "已转产"
       },
       {
+        "code": "MYO",
+        "name": "肌红蛋白",
+        "status": "已转产"
+      },
+      {
+        "code": "H-FABP",
+        "name": "心脏型脂肪酸结合蛋白",
+        "status": "已转产"
+      },
+      {
         "code": "NT-proBNP",
         "name": "N 末端脑钠肽前体",
         "status": "已转产"
@@ -113,23 +123,13 @@ window.SALES_TRAINER_DATA = {
         "status": "已转产"
       },
       {
-        "code": "MYO",
-        "name": "肌红蛋白",
-        "status": "已转产"
-      },
-      {
         "code": "Lp-PLA2",
         "name": "脂蛋白相关磷脂酶 A2",
         "status": "已转产"
       },
       {
         "code": "ST2",
-        "name": "ST2",
-        "status": "已转产"
-      },
-      {
-        "code": "H-FABP",
-        "name": "心脏型脂肪酸结合蛋白",
+        "name": "可溶性 ST2",
         "status": "已转产"
       },
       {
@@ -140,16 +140,6 @@ window.SALES_TRAINER_DATA = {
       {
         "code": "SAA",
         "name": "血清淀粉样蛋白 A",
-        "status": "已转产"
-      },
-      {
-        "code": "Ferr",
-        "name": "铁蛋白",
-        "status": "已转产"
-      },
-      {
-        "code": "HbA1c",
-        "name": "糖化血红蛋白",
         "status": "已转产"
       },
       {
@@ -168,38 +158,8 @@ window.SALES_TRAINER_DATA = {
         "status": "已转产"
       },
       {
-        "code": "25-OH-VD",
-        "name": "25 羟基维生素 D",
-        "status": "已转产"
-      },
-      {
-        "code": "TPSA",
-        "name": "总前列腺特异性抗原",
-        "status": "已转产"
-      },
-      {
-        "code": "AFP",
-        "name": "甲胎蛋白",
-        "status": "已转产"
-      },
-      {
-        "code": "LH",
-        "name": "促黄体生成素",
-        "status": "已转产"
-      },
-      {
-        "code": "CEA",
-        "name": "癌胚抗原",
-        "status": "已转产"
-      },
-      {
-        "code": "FSH",
-        "name": "促卵泡刺激素",
-        "status": "已转产"
-      },
-      {
-        "code": "FPSA",
-        "name": "游离前列腺特异性抗原",
+        "code": "TT4",
+        "name": "总甲状腺素",
         "status": "已转产"
       },
       {
@@ -208,9 +168,59 @@ window.SALES_TRAINER_DATA = {
         "status": "已转产"
       },
       {
-        "code": "TT4",
-        "name": "总甲状腺素",
+        "code": "LH",
+        "name": "促黄体生成素",
         "status": "已转产"
+      },
+      {
+        "code": "FSH",
+        "name": "促卵泡刺激素",
+        "status": "已转产"
+      },
+      {
+        "code": "HbA1c",
+        "name": "糖化血红蛋白",
+        "status": "已转产"
+      },
+      {
+        "code": "25-OH-VD",
+        "name": "25 羟基维生素 D",
+        "status": "已转产"
+      },
+      {
+        "code": "Ferr",
+        "name": "铁蛋白",
+        "status": "已转产"
+      },
+      {
+        "code": "CEA",
+        "name": "癌胚抗原",
+        "status": "已转产"
+      },
+      {
+        "code": "AFP",
+        "name": "甲胎蛋白",
+        "status": "已转产"
+      },
+      {
+        "code": "TPSA",
+        "name": "总前列腺特异性抗原",
+        "status": "已转产"
+      },
+      {
+        "code": "FPSA",
+        "name": "游离前列腺特异性抗原",
+        "status": "已转产"
+      },
+      {
+        "code": "CRP",
+        "name": "C 反应蛋白",
+        "status": "即将转产"
+      },
+      {
+        "code": "IgE",
+        "name": "总 IgE",
+        "status": "即将转产"
       },
       {
         "code": "FT4",
@@ -220,16 +230,6 @@ window.SALES_TRAINER_DATA = {
       {
         "code": "Beta-HCG",
         "name": "总 β-HCG",
-        "status": "即将转产"
-      },
-      {
-        "code": "IgE",
-        "name": "总 IgE",
-        "status": "即将转产"
-      },
-      {
-        "code": "CRP",
-        "name": "全程C反应蛋白",
         "status": "即将转产"
       }
     ],
@@ -1369,6 +1369,316 @@ window.SALES_TRAINER_DATA = {
         "architecture": "8 通道并行，但存在组合卡限制和液路维护问题。",
         "attack": "不硬拼 120T/H；改攻单项卡盒灵活、无液路、常温、少浪费和低维护。",
         "sourceNote": "按 Drophil / 尖果公开资料和 2026-03-28 内部 PPT 汇总；卡型差异较大，正式对外需回 IFU。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus",
+        "style": "FIA POCT 入口平台",
+        "form": "免疫荧光 FIA，小型 POCT 平台",
+        "temp": "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
+        "public": "Chemoquip 官网列出 Finecare FIA Analyzer；Finecare 是 Wondfo 免疫荧光 POCT 产品线，适合基层和私立实验室快速检测",
+        "fit": "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位",
+        "pitch": "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
+        "memory": "看到 Finecare 客户，先问装机量、月试剂消耗、Top 5 项目和客户是否抱怨菜单或结果稳定性。",
+        "localDistributor": "Chemoquip Ltd，肯尼亚实验室设备与试剂供应商。",
+        "maker": "Guangzhou Wondfo Biotech，中国。",
+        "evidenceLevel": "官网产品页确认 Chemoquip 有 Finecare FIA Analyzer；具体装机量、菜单和价格需线下确认。",
+        "wholeBlood": "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+        "sampleType": "全血 / 血清 / 血浆等依项目变化。",
+        "tat": "FIA POCT 通常强调快速出结果；具体项目时间按 Wondfo IFU。",
+        "sampleVolume": "按单项目 IFU，不对外给统一数值。",
+        "calibration": "FIA 卡式平台，通常按试剂卡和仪器程序完成检测，质控仍按项目要求执行。",
+        "fluidics": "卡式 POCT，无大型液路系统，维护门槛低。",
+        "channels": "小型 FIA 平台，多为单样本或低通量 POCT 使用逻辑。",
+        "independence": "适合单项目随到随测，但不是 X-Lab mini 这种 12 通道 compact CLIA 定位。",
+        "sizeWeight": "小型台式 / 便携 POCT 形态，具体型号参数以 Finecare Meter III Plus 资料为准。",
+        "quality": "成熟 FIA 平台，优势在低门槛和装机；性能讨论必须落到具体项目。",
+        "competitiveness": "价格门槛、POCT 接受度和渠道成熟度强。",
+        "hospitalScenes": "私立实验室、基层医院、门诊 POCT、急诊快速筛查。",
+        "architecture": "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。",
+        "attack": "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+        "fieldQuestions": "Finecare 装机多少？每月试剂消耗多少？Top 5 项目是什么？客户抱怨菜单、结果稳定性、供货还是售后？",
+        "doNotSay": "不要说 Finecare 不准；不要把 FIA 和 CLIA 简化成低端和高端；不要承诺对方菜单没有的项目。",
+        "sourceNote": "Chemoquip 官网产品页 + Wondfo Finecare 公开资料；线下需确认当地装机、售价、菜单和库存。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA",
+        "style": "中高通量中心实验室 CLIA",
+        "form": "全自动化学发光，中高通量台式平台",
+        "temp": "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。",
+        "public": "Chemoquip catalogue 截图显示 Zybio EXI1800 CLIA；公开资料强调 fully automated、最高约 180T/H、50 样本位、16 试剂位、自动识别和耗材管理",
+        "fit": "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室",
+        "pitch": "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+        "memory": "遇到 EXI1800，别拼参数；问客户有没有小医院、诊所、急诊散样、预算不足或空间不足的下沉客户。",
+        "localDistributor": "Chemoquip Ltd。",
+        "maker": "Zybio Inc.，中国。",
+        "evidenceLevel": "Chemoquip catalogue 截图确认出现 Zybio EXI1800 CLIA；具体代理关系和在售状态需线下确认。",
+        "wholeBlood": "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+        "sampleType": "公开截图写 serum、plasma、urine 等；不同项目不同。",
+        "tat": "截图资料写 first result about 15 min。",
+        "sampleVolume": "自动化平台通常由样本位上样，具体样本量按 IFU。",
+        "calibration": "全自动 CLIA 体系，需要常规校准、质控和耗材管理。",
+        "fluidics": "全自动平台，有样本、试剂、耗材和系统维护流程。",
+        "channels": "公开截图写 up to 180 tests/hour、50 sample positions、16 reagent positions。",
+        "independence": "适合中心实验室批量处理，不是低门槛多点部署逻辑。",
+        "sizeWeight": "中高通量台式自动化设备，占地和安装要求高于 X-Lab mini。",
+        "quality": "自动化和通量形象强；项目性能仍以 Zybio 对应 IFU 为准。",
+        "competitiveness": "如果客户已有中等样本量，EXI1800 的自动化、通量和平台感会更有吸引力。",
+        "hospitalScenes": "中大型私立实验室、中型医院中心实验室、需要较高 throughput 的场景。",
+        "architecture": "全自动 CLIA，中高通量中心实验室平台。",
+        "attack": "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+        "fieldQuestions": "他们是否真的卖过 EXI1800？客户采购价和试剂消耗是多少？有没有客户因为空间、预算、维护或样本量不足而买不起大型 CLIA？",
+        "doNotSay": "不要说 X-Lab mini 性能全面超过 EXI1800；不要在高通量场景硬碰硬。",
+        "sourceNote": "Chemoquip catalogue 截图 + Zybio EXI 公开资料；渠道关系和本地装机需拜访核实。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Chemoquip - Routine Lab Portfolio",
+        "style": "综合实验室供应渠道",
+        "form": "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合",
+        "temp": "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。",
+        "public": "Chemoquip 产品页列出 CLIA Analyzer、Finecare FIA Analyzer、HbA1c Analyzer、ELISA Reader、ESR Analyzer、Clinical Chemistry Analyzer 等",
+        "fit": "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点",
+        "pitch": "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+        "memory": "现场必须问他们现在利润来自设备还是试剂，哪些项目客户最常问但现有菜单不方便做。",
+        "localDistributor": "Chemoquip Ltd。",
+        "maker": "多品牌组合，官网列出化学、血球、ELISA、ESR、HbA1c、CLIA 和 POCT 类目。",
+        "evidenceLevel": "官网类目确认业务范围；具体品牌、型号、销量需线下确认。",
+        "wholeBlood": "按具体设备和项目判断，不能平台级概括。",
+        "sampleType": "覆盖血清、血浆、全血、尿液等多个实验室场景。",
+        "tat": "从 POCT 分钟级到 ELISA / 常规实验室批量流程均有。",
+        "sampleVolume": "按设备和项目 IFU。",
+        "calibration": "不同平台差异大，化学、ELISA、血球、ESR 和 HbA1c 各自管理。",
+        "fluidics": "常规实验室设备通常有液路、耗材和维护要求；POCT 类相对轻。",
+        "channels": "不是单一平台通道数，需按型号确认。",
+        "independence": "说明其客户覆盖广，但免疫定量项目可能分散在多个设备或外送。",
+        "sizeWeight": "从小型 POCT 到大型台式设备都有。",
+        "quality": "渠道能力强弱取决于实际代理品牌和售后团队。",
+        "competitiveness": "Chemoquip 的优势是实验室综合供应能力，容易接触采购负责人。",
+        "hospitalScenes": "私立实验室、医院检验科、科研和常规实验室采购。",
+        "architecture": "综合实验室供应商组合，不是一台机器。",
+        "attack": "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。",
+        "fieldQuestions": "他们利润来自设备还是试剂？哪些项目客户问得多但现有方案不方便？是否有免疫项目外送？",
+        "doNotSay": "不要把 Chemoquip 所有业务都当成直接竞品；先区分渠道能力和具体仪器。",
+        "sourceNote": "Chemoquip 官网产品类目；机器明细、价格和客户分布需拜访核实。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Microbiology E.A - Boditech iChroma II / III",
+        "style": "成熟 FIA POCT 渠道",
+        "form": "韩国 Boditech 免疫荧光 FIA POCT",
+        "temp": "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。",
+        "public": "Microbiology E.A 官网列出 iChroma II、iChroma III 和 I-Chroma Reagents；Boditech 是成熟 FIA POCT 品牌",
+        "fit": "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+        "pitch": "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合",
+        "memory": "现场重点问 iChroma 月消耗、客户抱怨、是否有中小实验室想要更高等级免疫定量。",
+        "localDistributor": "Microbiology E.A Ltd。",
+        "maker": "Boditech Med，韩国。",
+        "evidenceLevel": "Microbiology E.A 官网列出 iChroma II、iChroma III 和 I-Chroma Reagents；具体装机和消耗需线下确认。",
+        "wholeBlood": "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+        "sampleType": "全血 / 血清 / 血浆等，依项目变化。",
+        "tat": "FIA POCT 通常为分钟级；具体项目按 Boditech IFU。",
+        "sampleVolume": "按单项目 IFU，不对外给统一平台数值。",
+        "calibration": "FIA 卡式检测，质控和校准按项目要求。",
+        "fluidics": "卡式 POCT，无大型液路。",
+        "channels": "小型 FIA 平台，以单样本或低通量随到随测为主。",
+        "independence": "适合 POCT 快速检测，不是 compact CLIA 多项目平台叙事。",
+        "sizeWeight": "小型 POCT 形态，适合低门槛部署。",
+        "quality": "成熟 FIA 品牌，客户教育基础好；性能需项目级比较。",
+        "competitiveness": "已有试剂复购和 POCT 客户池，是好渠道。",
+        "hospitalScenes": "中小实验室、诊所、急诊 POCT、私立医疗点。",
+        "architecture": "免疫荧光 FIA 卡式平台。",
+        "attack": "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+        "fieldQuestions": "iChroma 月消耗多少？哪几个项目走量？客户最常抱怨价格、菜单、准确性、供货还是售后？",
+        "doNotSay": "不要贬低 Boditech；不要直接说 FIA 被 CLIA 淘汰。",
+        "sourceNote": "Microbiology E.A 官网产品页 + Boditech 公开资料；本地装机、价格和菜单需现场核实。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Microbiology E.A - Routine Lab Portfolio",
+        "style": "常规实验室综合渠道",
+        "form": "临床化学、血球、ESR、ELISA 和 POCT 组合渠道",
+        "temp": "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+        "public": "Microbiology E.A 产品组合包括 chemistry、hematology、ESR、ELISA、POCT 和 iChroma 相关试剂",
+        "fit": "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格",
+        "pitch": "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+        "memory": "现场问他们客户里有多少中小实验室，是否外送甲功、肿标、Ferritin、心肌或炎症项目。",
+        "localDistributor": "Microbiology E.A Ltd。",
+        "maker": "多品牌实验室组合，含 chemistry、hematology、ESR、ELISA、POCT 等方向。",
+        "evidenceLevel": "官网业务范围可确认；具体品牌型号和销量需线下确认。",
+        "wholeBlood": "按具体设备和项目，不做平台级结论。",
+        "sampleType": "常规实验室覆盖多类样本，免疫相关项目需要单独问。",
+        "tat": "常规化学、血球、ESR、ELISA 和 POCT 的出结果时间差异大。",
+        "sampleVolume": "按具体设备 IFU。",
+        "calibration": "不同平台维护、校准和质控逻辑不同。",
+        "fluidics": "常规实验室设备多有液路和维护流程，POCT 类较轻。",
+        "channels": "不是单一机器通道数。",
+        "independence": "适合挖掘已有实验室客户中的免疫补位需求。",
+        "sizeWeight": "从小型设备到常规台式设备都有。",
+        "quality": "渠道质量取决于售后团队和试剂复购能力。",
+        "competitiveness": "如果其客户基础稳，X-Lab mini 可以作为新产品线补充。",
+        "hospitalScenes": "私立实验室、医院检验科、诊断中心和基础实验室。",
+        "architecture": "综合实验室供应商组合。",
+        "attack": "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+        "fieldQuestions": "客户是否外送甲功、肿标、Ferritin、心肌和炎症？是否有试剂复购团队？是否愿意做一台 paid evaluation？",
+        "doNotSay": "不要把综合渠道当成已经具备发光销售能力，必须先验证其 IVD 试剂团队。",
+        "sourceNote": "Microbiology E.A 官网产品范围；品牌明细与在售状态需拜访确认。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4",
+        "style": "公共卫生 POC 特定项目",
+        "form": "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+        "temp": "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。",
+        "public": "Ultra Lab point-of-care 页面显示 Abbott m-PIMA Analyzer 和 PIMA CD4 Cartridge",
+        "fit": "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单",
+        "pitch": "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+        "memory": "现场问他们除 HIV/CD4 外，有没有客户需要 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "localDistributor": "Ultra Lab East Africa Ltd。",
+        "maker": "Abbott，国际品牌。",
+        "evidenceLevel": "Ultra Lab point-of-care 页面显示 Abbott m-PIMA Analyzer 和 PIMA CD4 Cartridge。",
+        "wholeBlood": "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+        "sampleType": "偏特定项目和公共卫生使用场景。",
+        "tat": "按 Abbott 项目资料确认，不与 X-Lab mini 直接比 TAT。",
+        "sampleVolume": "按项目资料确认。",
+        "calibration": "专用 cartridge / system 逻辑，按 Abbott 流程执行。",
+        "fluidics": "专用 POCT 系统，不是常规 CLIA/FIA 菜单平台。",
+        "channels": "特定项目平台，不以多免疫菜单通道为卖点。",
+        "independence": "适合 CD4 / 公共卫生项目，不覆盖常规免疫组合。",
+        "sizeWeight": "POC 平台形态，具体规格按 Abbott 资料。",
+        "quality": "Abbott 品牌和公共卫生项目经验强。",
+        "competitiveness": "Ultra Lab 有 POCT 和公共卫生客户入口。",
+        "hospitalScenes": "公共卫生项目、HIV/CD4 相关检测、项目制采购。",
+        "architecture": "特定项目 POCT 平台。",
+        "attack": "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "fieldQuestions": "除 HIV/CD4 外，他们是否服务慢病、急诊、私立实验室？客户是否需要常规免疫菜单？",
+        "doNotSay": "不要说 X-Lab mini 替代 m-PIMA；这是不同业务线。",
+        "sourceNote": "Ultra Lab point-of-care 页面 + Abbott 公开资料；本地采购项目和渠道关系需确认。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Ultra Lab - i-SENS A1Care",
+        "style": "慢病 HbA1c POCT",
+        "form": "i-SENS 慢病 POCT，HbA1c 和 ACR 方向",
+        "temp": "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。",
+        "public": "Ultra Lab point-of-care 页面显示 i-SENS A1Care；A1Care 主要用于 HbA1c、ACR 等慢病 POCT 场景",
+        "fit": "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台",
+        "pitch": "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+        "memory": "现场问 HbA1c 客户是否也在做 Ferritin、CRP、PCT、甲功或心肌，是否愿意一台机扩更多项目。",
+        "localDistributor": "Ultra Lab East Africa Ltd。",
+        "maker": "i-SENS，韩国。",
+        "evidenceLevel": "Ultra Lab point-of-care 页面显示 i-SENS A1Care；具体配置和菜单需现场确认。",
+        "wholeBlood": "HbA1c / ACR 等项目基质按 i-SENS IFU。",
+        "sampleType": "慢病 POCT 样本，按项目资料确认。",
+        "tat": "公开资料通常强调快速 HbA1c / ACR 检测；具体时间按型号和项目。",
+        "sampleVolume": "按 i-SENS IFU。",
+        "calibration": "专用试剂 / cartridge 体系，按厂家要求质控。",
+        "fluidics": "小型 POCT 平台，维护轻。",
+        "channels": "单项目或少项目慢病 POCT 逻辑。",
+        "independence": "与 X-Lab mini 的 HbA1c 有重叠，但菜单宽度不同。",
+        "sizeWeight": "小型 POCT 形态。",
+        "quality": "慢病单项目便利性强，适合糖尿病管理入口。",
+        "competitiveness": "低门槛和单项目聚焦强。",
+        "hospitalScenes": "糖尿病门诊、慢病管理、基层和私立实验室。",
+        "architecture": "慢病 POCT 专项平台。",
+        "attack": "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。",
+        "fieldQuestions": "A1Care 客户是否同时采购 Ferritin、CRP、PCT、甲功或心肌？他们是否愿意用一台平台扩菜单？",
+        "doNotSay": "不要说 A1Care 没价值；它是慢病入口。",
+        "sourceNote": "Ultra Lab 页面 + i-SENS 公开资料；项目参数需按 IFU。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit",
+        "style": "血糖监测慢病入口",
+        "form": "血糖监测 POCT",
+        "temp": "血糖仪不属于免疫发光竞品，不要强行对比性能。",
+        "public": "Ultra Lab point-of-care 页面显示 CareSens S Fit；这是糖尿病管理和血糖监测入口产品",
+        "fit": "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+        "pitch": "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点",
+        "memory": "现场问其糖尿病客户是否采购 HbA1c、Ferritin、CRP 或其他慢病相关检测。",
+        "localDistributor": "Ultra Lab East Africa Ltd。",
+        "maker": "i-SENS，韩国。",
+        "evidenceLevel": "Ultra Lab point-of-care 页面显示 CareSens S Fit。",
+        "wholeBlood": "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+        "sampleType": "毛细血 / 全血血糖监测。",
+        "tat": "血糖仪秒级读数，不能和免疫检测直接比较。",
+        "sampleVolume": "按血糖试纸 IFU。",
+        "calibration": "血糖仪和试纸体系，按厂家要求。",
+        "fluidics": "无液路，血糖试纸。",
+        "channels": "单测试血糖监测。",
+        "independence": "不是免疫分析仪，不直接竞争 X-Lab mini。",
+        "sizeWeight": "手持 / 小型血糖仪。",
+        "quality": "慢病管理入口强，消耗品复购明确。",
+        "competitiveness": "说明 Ultra Lab 有糖尿病和基层客户触点。",
+        "hospitalScenes": "糖尿病管理、药房、诊所、基层医疗。",
+        "architecture": "血糖监测设备。",
+        "attack": "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+        "fieldQuestions": "他们糖尿病客户是否也采购 HbA1c、Ferritin、CRP 或其他慢病相关检测？",
+        "doNotSay": "不要把血糖仪当成 CLIA/FIA 竞品。",
+        "sourceNote": "Ultra Lab point-of-care 页面 + i-SENS 公开资料。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Ultra Lab - Cypress CYAN 系列",
+        "style": "临床化学常规实验室",
+        "form": "Cypress Diagnostics 临床化学和常规实验室设备组合",
+        "temp": "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+        "public": "Ultra Lab 分类页显示 Cypress CYAN 系列相关产品；Cypress 是常规临床化学和实验室诊断品牌",
+        "fit": "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手",
+        "pitch": "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+        "memory": "现场问他们化学客户是否外送免疫项目，尤其甲功、肿标、心肌、炎症、Ferritin。",
+        "localDistributor": "Ultra Lab East Africa Ltd。",
+        "maker": "Cypress Diagnostics，比利时 / 国际市场。",
+        "evidenceLevel": "Ultra Lab 分类页显示 Cypress CYAN 系列相关产品；具体型号需现场确认。",
+        "wholeBlood": "化学平台通常不是免疫全血直检卖点，按具体项目。",
+        "sampleType": "临床化学样本为主，血清 / 血浆等常见。",
+        "tat": "常规化学平台按批量流程，不与 X-Lab mini 免疫 TAT 直接比。",
+        "sampleVolume": "按具体 CYAN 型号和试剂说明。",
+        "calibration": "临床化学平台需要校准、质控和维护。",
+        "fluidics": "常规化学分析仪有液路和维护流程。",
+        "channels": "按具体型号，不能平台级统一。",
+        "independence": "化学和免疫是相邻但不同产品线。",
+        "sizeWeight": "台式临床化学设备，具体看型号。",
+        "quality": "常规化学客户基础可作为免疫项目补充入口。",
+        "competitiveness": "Ultra Lab 具备常规实验室客户触达能力。",
+        "hospitalScenes": "常规检验科、私立实验室、基础生化检测。",
+        "architecture": "临床化学平台，不是 CLIA/FIA。",
+        "attack": "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+        "fieldQuestions": "CYAN 客户是否也需要免疫项目？是否已有发光设备？是否愿意加一台小型免疫平台？",
+        "doNotSay": "不要把临床化学项目和免疫项目混为一谈。",
+        "sourceNote": "Ultra Lab 分类页 + Cypress 公开资料；当地在售型号需核实。"
+      },
+      {
+        "segment": "肯尼亚代理商竞品",
+        "name": "肯尼亚 Harley's - Partner Portfolio",
+        "style": "综合医疗设备渠道",
+        "form": "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+        "temp": "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。",
+        "public": "Harley's 官网 partners 页面显示 EDAN、Perlove、UNICOS、Candomed、KAPS、HEMC、VOLK 等品牌伙伴",
+        "fit": "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验",
+        "pitch": "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+        "memory": "现场先问是否有 IVD reagent team、冷链仓储、售后工程师、检验科客户和注册经验。",
+        "localDistributor": "Harley's Healthcare Solutions。",
+        "maker": "官网伙伴含 EDAN、Perlove、UNICOS、Candomed、KAPS、HEMC、VOLK 等。",
+        "evidenceLevel": "官网伙伴页确认合作品牌，但不能据此确认其正在销售 CLIA 或 FIA。",
+        "wholeBlood": "不是具体仪器，不能讲样本类型。",
+        "sampleType": "需先确认其 IVD 产品线。",
+        "tat": "无统一仪器参数。",
+        "sampleVolume": "无统一仪器参数。",
+        "calibration": "无统一仪器参数。",
+        "fluidics": "无统一仪器参数。",
+        "channels": "无统一仪器参数。",
+        "independence": "它更像综合医疗设备渠道，需要验证是否有免疫试剂复购能力。",
+        "sizeWeight": "不适用。",
+        "quality": "渠道覆盖和医院关系可能强，但 IVD reagent 能力未确认。",
+        "competitiveness": "适合借其医院关系进入政府和私立医院，但不能直接给独家。",
+        "hospitalScenes": "综合医院设备采购、影像、外科、基础诊疗设备和部分实验室设备。",
+        "architecture": "综合医疗设备渠道，不是一台竞品机器。",
+        "attack": "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+        "fieldQuestions": "有没有 IVD reagent team？有没有免疫分析仪销售记录？是否有检验科客户？是否能承担安装培训和售后？",
+        "doNotSay": "不要因为它医院关系强就默认适合做独家代理。",
+        "sourceNote": "Harley's 官网 partners 页面；具体 IVD 能力需线下核实。"
       }
     ],
     "customerPlays": [
@@ -11016,7 +11326,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0478",
@@ -11037,7 +11347,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0479",
@@ -11058,7 +11368,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0480",
@@ -11079,7 +11389,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0481",
@@ -11100,7 +11410,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0482",
@@ -11184,7 +11494,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0486",
@@ -11205,7 +11515,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0487",
@@ -11226,7 +11536,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0488",
@@ -11247,7 +11557,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0489",
@@ -11268,7 +11578,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0490",
@@ -11352,7 +11662,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0494",
@@ -11373,7 +11683,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0495",
@@ -11394,7 +11704,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0496",
@@ -11415,7 +11725,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0497",
@@ -11436,7 +11746,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0498",
@@ -11520,7 +11830,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0502",
@@ -11541,7 +11851,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0503",
@@ -11562,7 +11872,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0504",
@@ -11583,7 +11893,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0505",
@@ -11604,7 +11914,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0506",
@@ -11688,7 +11998,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0510",
@@ -11709,7 +12019,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0511",
@@ -11730,7 +12040,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0512",
@@ -11751,7 +12061,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0513",
@@ -11772,7 +12082,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0514",
@@ -11856,7 +12166,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0518",
@@ -11877,7 +12187,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0519",
@@ -11898,7 +12208,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0520",
@@ -11919,7 +12229,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0521",
@@ -11940,7 +12250,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0522",
@@ -12024,7 +12334,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0526",
@@ -12045,7 +12355,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0527",
@@ -12066,7 +12376,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0528",
@@ -12087,7 +12397,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0529",
@@ -12108,7 +12418,7 @@ window.SALES_TRAINER_DATA = {
         "国际竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0530",
@@ -12192,7 +12502,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0534",
@@ -12213,7 +12523,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0535",
@@ -12234,7 +12544,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0536",
@@ -12255,7 +12565,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0537",
@@ -12276,7 +12586,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0538",
@@ -12349,7 +12659,7 @@ window.SALES_TRAINER_DATA = {
         "传统缩小版",
         "自动化台式",
         "通量导向",
-        "实验室台式"
+        "FIA POCT 入口平台"
       ],
       "correctIndex": 0,
       "answerLabel": "传统缩小版",
@@ -12360,7 +12670,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0542",
@@ -12370,7 +12680,7 @@ window.SALES_TRAINER_DATA = {
         "单人份试剂条",
         "传统发光/磁分离洗涤，单人份卡",
         "单人份/mono-test 化学发光",
-        "ELFA 酶联免疫荧光，条卡/SPR 体系"
+        "免疫荧光 FIA，小型 POCT 平台"
       ],
       "correctIndex": 2,
       "answerLabel": "单人份/mono-test 化学发光",
@@ -12381,7 +12691,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0543",
@@ -12390,7 +12700,7 @@ window.SALES_TRAINER_DATA = {
       "choices": [
         "官网强调无开盖保质期限制，但未见长期常温声明；无开盖限制不等于常温试剂。",
         "官方公开资料写冻干微球、常温运输、无需冷链；可讲物流轻，但长期储存仍看项目 IFU。",
-        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。",
+        "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
         "官网强调单人份、无开盖保质期限制；这不等于长期常温。无 IFU 支持时不要外讲常温。"
       ],
       "correctIndex": 3,
@@ -12402,7 +12712,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0544",
@@ -12412,7 +12722,7 @@ window.SALES_TRAINER_DATA = {
         "基层医疗、国内医院、需要广菜单和单人份的客户",
         "小中型实验室、急诊、关注自动化和特色项目客户",
         "需要较高通量、接受项目组合卡的客户",
-        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户"
+        "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位"
       ],
       "correctIndex": 0,
       "answerLabel": "基层医疗、国内医院、需要广菜单和单人份的客户",
@@ -12423,7 +12733,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0545",
@@ -12433,7 +12743,7 @@ window.SALES_TRAINER_DATA = {
         "卓润强在自动化和特色项目；我们强调 LICA 均相免洗、60-80T/H、8.5kg、常温、全血直检和低维护",
         "热景强在装机和菜单；我们强调 LICA 均相、无液路、常温、60-80T/H、3-10 分钟、低维护和更轻便",
         "对方通量强；我们强调 12 通道单项卡盒“测什么用什么”、无液路、常温、低维护和避免不必要浪费",
-        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署"
+        "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑"
       ],
       "correctIndex": 1,
       "answerLabel": "热景强在装机和菜单；我们强调 LICA 均相、无液路、常温、60-80T/H、3-10 分钟、低维护和更轻便",
@@ -12444,7 +12754,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0546",
@@ -12454,7 +12764,7 @@ window.SALES_TRAINER_DATA = {
         "公开页主讲自动化和特色项目，全血直检不是它的主卖点，样本基质仍按项目 IFU。",
         "样本类型要看具体卡型，培训上不建议平台级乱讲全血能力。",
         "部分急诊项目支持全血，其余样本基质依具体项目和型号。",
-        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。"
+        "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。"
       ],
       "correctIndex": 2,
       "answerLabel": "部分急诊项目支持全血，其余样本基质依具体项目和型号。",
@@ -12475,7 +12785,7 @@ window.SALES_TRAINER_DATA = {
         "传统台式单人份 CLIA，6 / 12 通道取决于型号。",
         "12 通道台式自动化，含洗涤流程。",
         "8 通道并行，但存在组合卡限制和液路维护问题。",
-        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。"
+        "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。"
       ],
       "correctIndex": 0,
       "answerLabel": "传统台式单人份 CLIA，6 / 12 通道取决于型号。",
@@ -12496,7 +12806,7 @@ window.SALES_TRAINER_DATA = {
         "重点攻 LICA 免洗、8.5kg、常温、全血直检、低维护和更快首结果。",
         "不硬拼 120T/H；改攻单项卡盒灵活、无液路、常温、少浪费和低维护。",
         "重点攻 LICA 均相、常温、3-10 分钟、60-80T/H、低维护和轻便，不和它拼装机历史。",
-        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。"
+        "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。"
       ],
       "correctIndex": 2,
       "answerLabel": "重点攻 LICA 均相、常温、3-10 分钟、60-80T/H、低维护和轻便，不和它拼装机历史。",
@@ -12516,8 +12826,8 @@ window.SALES_TRAINER_DATA = {
       "choices": [
         "通量导向",
         "自动化台式",
-        "实验室台式",
-        "床旁便携"
+        "FIA POCT 入口平台",
+        "中高通量中心实验室 CLIA"
       ],
       "correctIndex": 1,
       "answerLabel": "自动化台式",
@@ -12528,7 +12838,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0550",
@@ -12536,8 +12846,8 @@ window.SALES_TRAINER_DATA = {
       "prompt": "竞品“卓润 iStar 500”更接近哪种单人份形态？",
       "choices": [
         "传统发光/磁分离洗涤，单人份卡",
-        "ELFA 酶联免疫荧光，条卡/SPR 体系",
-        "Roche CARDIAC 试纸条，单测试",
+        "免疫荧光 FIA，小型 POCT 平台",
+        "全自动化学发光，中高通量台式平台",
         "单人份试剂条"
       ],
       "correctIndex": 3,
@@ -12549,7 +12859,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0551",
@@ -12558,8 +12868,8 @@ window.SALES_TRAINER_DATA = {
       "choices": [
         "官网强调无开盖保质期限制，但未见长期常温声明；无开盖限制不等于常温试剂。",
         "官方公开资料写冻干微球、常温运输、无需冷链；可讲物流轻，但长期储存仍看项目 IFU。",
-        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。",
-        "公开产品页未明确长期常温；即用型试纸或试纸加温流程，不等于常温试剂。对外不要直接讲常温。"
+        "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
+        "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。"
       ],
       "correctIndex": 0,
       "answerLabel": "官网强调无开盖保质期限制，但未见长期常温声明；无开盖限制不等于常温试剂。",
@@ -12570,7 +12880,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0552",
@@ -12579,8 +12889,8 @@ window.SALES_TRAINER_DATA = {
       "choices": [
         "需要较高通量、接受项目组合卡的客户",
         "小中型实验室、急诊、关注自动化和特色项目客户",
-        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户",
-        "急诊、救护车、床旁、已有罗氏体系客户"
+        "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位",
+        "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室"
       ],
       "correctIndex": 1,
       "answerLabel": "小中型实验室、急诊、关注自动化和特色项目客户",
@@ -12591,7 +12901,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0553",
@@ -12599,9 +12909,9 @@ window.SALES_TRAINER_DATA = {
       "prompt": "面对“卓润 iStar 500”时，更合适的切入话术是哪一项？",
       "choices": [
         "对方通量强；我们强调 12 通道单项卡盒“测什么用什么”、无液路、常温、低维护和避免不必要浪费",
-        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署",
+        "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
         "卓润强在自动化和特色项目；我们强调 LICA 均相免洗、60-80T/H、8.5kg、常温、全血直检和低维护",
-        "认可罗氏品牌和心血管证据；我们强调菜单扩展、常温、通量和多科室分散样本"
+        "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位"
       ],
       "correctIndex": 2,
       "answerLabel": "卓润强在自动化和特色项目；我们强调 LICA 均相免洗、60-80T/H、8.5kg、常温、全血直检和低维护",
@@ -12612,7 +12922,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0554",
@@ -12620,8 +12930,8 @@ window.SALES_TRAINER_DATA = {
       "prompt": "竞品“卓润 iStar 500”在样本类型 / 全血支持上的更准确口径是哪一项？",
       "choices": [
         "样本类型要看具体卡型，培训上不建议平台级乱讲全血能力。",
-        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。",
-        "主打全血床旁；公开页常见为肝素抗凝静脉全血。",
+        "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+        "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
         "公开页主讲自动化和特色项目，全血直检不是它的主卖点，样本基质仍按项目 IFU。"
       ],
       "correctIndex": 3,
@@ -12642,8 +12952,8 @@ window.SALES_TRAINER_DATA = {
       "choices": [
         "8 通道并行，但存在组合卡限制和液路维护问题。",
         "12 通道台式自动化，含洗涤流程。",
-        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。",
-        "试纸条单测试位，无多通道，极便携。"
+        "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。",
+        "全自动 CLIA，中高通量中心实验室平台。"
       ],
       "correctIndex": 1,
       "answerLabel": "12 通道台式自动化，含洗涤流程。",
@@ -12662,8 +12972,8 @@ window.SALES_TRAINER_DATA = {
       "prompt": "面对“卓润 iStar 500”时，更值得强调的可攻点 / 互补位是哪一项？",
       "choices": [
         "不硬拼 120T/H；改攻单项卡盒灵活、无液路、常温、少浪费和低维护。",
-        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。",
-        "不要硬碰品牌；重点攻菜单更广、通量更高、多科室散样、常温物流和平台化免疫定量。",
+        "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+        "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
         "重点攻 LICA 免洗、8.5kg、常温、全血直检、低维护和更快首结果。"
       ],
       "correctIndex": 3,
@@ -12682,10 +12992,10 @@ window.SALES_TRAINER_DATA = {
       "kind": "choice",
       "prompt": "竞品“尖果 Drophil S100 pro”更接近哪种定位风格？",
       "choices": [
-        "实验室台式",
-        "床旁便携",
+        "FIA POCT 入口平台",
+        "中高通量中心实验室 CLIA",
         "通量导向",
-        "手持式"
+        "综合实验室供应渠道"
       ],
       "correctIndex": 2,
       "answerLabel": "通量导向",
@@ -12696,7 +13006,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0558",
@@ -12704,9 +13014,9 @@ window.SALES_TRAINER_DATA = {
       "prompt": "竞品“尖果 Drophil S100 pro”更接近哪种单人份形态？",
       "choices": [
         "传统发光/磁分离洗涤，单人份卡",
-        "ELFA 酶联免疫荧光，条卡/SPR 体系",
-        "Roche CARDIAC 试纸条，单测试",
-        "一次性 cartridge，手持床旁综合检测"
+        "免疫荧光 FIA，小型 POCT 平台",
+        "全自动化学发光，中高通量台式平台",
+        "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合"
       ],
       "correctIndex": 0,
       "answerLabel": "传统发光/磁分离洗涤，单人份卡",
@@ -12717,17 +13027,17 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0559",
       "kind": "choice",
       "prompt": "竞品“尖果 Drophil S100 pro”更准确的温控口径是哪一项？",
       "choices": [
-        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。",
+        "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
         "官方公开资料写冻干微球、常温运输、无需冷链；可讲物流轻，但长期储存仍看项目 IFU。",
-        "公开产品页未明确长期常温；即用型试纸或试纸加温流程，不等于常温试剂。对外不要直接讲常温。",
-        "冷藏为主，短时室温。官方常见 2-8℃到效期，18-30℃仅限短期放置，不能讲长期常温。"
+        "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。",
+        "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。"
       ],
       "correctIndex": 1,
       "answerLabel": "官方公开资料写冻干微球、常温运输、无需冷链；可讲物流轻，但长期储存仍看项目 IFU。",
@@ -12738,17 +13048,17 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0560",
       "kind": "choice",
       "prompt": "竞品“尖果 Drophil S100 pro”更适合哪类客户或场景？",
       "choices": [
-        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户",
-        "急诊、救护车、床旁、已有罗氏体系客户",
+        "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位",
+        "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室",
         "需要较高通量、接受项目组合卡的客户",
-        "ICU、手术室、急诊、救护、床旁综合检测"
+        "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点"
       ],
       "correctIndex": 2,
       "answerLabel": "需要较高通量、接受项目组合卡的客户",
@@ -12759,16 +13069,16 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0561",
       "kind": "choice",
       "prompt": "面对“尖果 Drophil S100 pro”时，更合适的切入话术是哪一项？",
       "choices": [
-        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署",
-        "认可罗氏品牌和心血管证据；我们强调菜单扩展、常温、通量和多科室分散样本",
-        "雅培强在多项目床旁综合检测；我们聚焦免疫定量菜单和化学发光/LICA 升级",
+        "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
+        "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+        "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
         "对方通量强；我们强调 12 通道单项卡盒“测什么用什么”、无液路、常温、低维护和避免不必要浪费"
       ],
       "correctIndex": 3,
@@ -12780,7 +13090,7 @@ window.SALES_TRAINER_DATA = {
         "国内竞品",
         "销售"
       ],
-      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM"
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
     },
     {
       "id": "q0562",
@@ -12788,9 +13098,9 @@ window.SALES_TRAINER_DATA = {
       "prompt": "竞品“尖果 Drophil S100 pro”在样本类型 / 全血支持上的更准确口径是哪一项？",
       "choices": [
         "样本类型要看具体卡型，培训上不建议平台级乱讲全血能力。",
-        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。",
-        "主打全血床旁；公开页常见为肝素抗凝静脉全血。",
-        "核心卖点之一是全血床旁，但不同 cartridge 的样本矩阵不同。"
+        "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+        "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+        "按具体设备和项目判断，不能平台级概括。"
       ],
       "correctIndex": 0,
       "answerLabel": "样本类型要看具体卡型，培训上不建议平台级乱讲全血能力。",
@@ -12808,10 +13118,10 @@ window.SALES_TRAINER_DATA = {
       "kind": "choice",
       "prompt": "竞品“尖果 Drophil S100 pro”在通道、液路和结构上的更准确认识是哪一项？",
       "choices": [
-        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。",
-        "试纸条单测试位，无多通道，极便携。",
+        "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。",
+        "全自动 CLIA，中高通量中心实验室平台。",
         "8 通道并行，但存在组合卡限制和液路维护问题。",
-        "手持单端口 cartridge 模式，依赖多机扩点。"
+        "综合实验室供应商组合，不是一台机器。"
       ],
       "correctIndex": 2,
       "answerLabel": "8 通道并行，但存在组合卡限制和液路维护问题。",
@@ -12830,9 +13140,9 @@ window.SALES_TRAINER_DATA = {
       "prompt": "面对“尖果 Drophil S100 pro”时，更值得强调的可攻点 / 互补位是哪一项？",
       "choices": [
         "不硬拼 120T/H；改攻单项卡盒灵活、无液路、常温、少浪费和低维护。",
-        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。",
-        "不要硬碰品牌；重点攻菜单更广、通量更高、多科室散样、常温物流和平台化免疫定量。",
-        "不跟它拼手持综合菜单；我们攻免疫定量菜单深度、12 通道并行、常温试剂和更像小平台的 throughput。"
+        "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+        "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+        "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。"
       ],
       "correctIndex": 0,
       "answerLabel": "不硬拼 120T/H；改攻单项卡盒灵活、无液路、常温、少浪费和低维护。",
@@ -12847,6 +13157,1686 @@ window.SALES_TRAINER_DATA = {
     },
     {
       "id": "q0565",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”更接近哪种定位风格？",
+      "choices": [
+        "中高通量中心实验室 CLIA",
+        "综合实验室供应渠道",
+        "成熟 FIA POCT 渠道",
+        "FIA POCT 入口平台"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "FIA POCT 入口平台",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 的定位风格：FIA POCT 入口平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0566",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”更接近哪种单人份形态？",
+      "choices": [
+        "全自动化学发光，中高通量台式平台",
+        "免疫荧光 FIA，小型 POCT 平台",
+        "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合",
+        "韩国 Boditech 免疫荧光 FIA POCT"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "免疫荧光 FIA，小型 POCT 平台",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 的单人份形态：免疫荧光 FIA，小型 POCT 平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0567",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”更准确的温控口径是哪一项？",
+      "choices": [
+        "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。",
+        "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。",
+        "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
+        "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 的温控口径：按具体试剂 IFU 确认。不要把 Finecare 讲成长期常温平台，也不要替对方承诺冷链条件。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0568",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”更适合哪类客户或场景？",
+      "choices": [
+        "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室",
+        "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点",
+        "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+        "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 更适合的客户/场景：Chemoquip 已经在 POCT 和常规实验室设备里有客户基础，适合切入 paid evaluation 和升级补位。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0569",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
+        "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+        "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+        "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
+      "explanation": "不否定 Finecare；先承认它适合低门槛 POCT，再讲 X-Lab mini 是 compact CLIA，可承接更宽免疫菜单、更强定量和复购逻辑",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0570",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+        "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+        "按具体设备和项目判断，不能平台级概括。",
+        "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 的样本 / 全血口径：Finecare 部分项目支持全血，但不能平台级一把讲；正式沟通按单项目 IFU。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0571",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "全自动 CLIA，中高通量中心实验室平台。",
+        "综合实验室供应商组合，不是一台机器。",
+        "免疫荧光 FIA 卡式平台。",
+        "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。",
+      "explanation": "肯尼亚 Chemoquip - Finecare FIA Meter III Plus 的结构口径：免疫荧光 FIA 卡式平台，偏快速筛查和低门槛 POCT。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0572",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Finecare FIA Meter III Plus”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+        "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+        "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。",
+        "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+      "explanation": "不否定 Finecare；先问它的客户是否需要更宽免疫菜单、更强定量形象和更稳定的试剂复购，再推 X-Lab mini 做 compact CLIA 补位。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0573",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”更接近哪种定位风格？",
+      "choices": [
+        "中高通量中心实验室 CLIA",
+        "综合实验室供应渠道",
+        "成熟 FIA POCT 渠道",
+        "常规实验室综合渠道"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "中高通量中心实验室 CLIA",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 的定位风格：中高通量中心实验室 CLIA。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0574",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”更接近哪种单人份形态？",
+      "choices": [
+        "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合",
+        "韩国 Boditech 免疫荧光 FIA POCT",
+        "全自动化学发光，中高通量台式平台",
+        "临床化学、血球、ESR、ELISA 和 POCT 组合渠道"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "全自动化学发光，中高通量台式平台",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 的单人份形态：全自动化学发光，中高通量台式平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0575",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”更准确的温控口径是哪一项？",
+      "choices": [
+        "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。",
+        "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。",
+        "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+        "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 的温控口径：按 Zybio 单项目 IFU 确认。不要主动讲常温，也不要把大型 CLIA 和 X-Lab mini 放在同一价格层级硬比。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0576",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”更适合哪类客户或场景？",
+      "choices": [
+        "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室",
+        "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点",
+        "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+        "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 更适合的客户/场景：Chemoquip 如果已能卖 EXI1800，说明其有免疫发光客户教育能力，但客户群更偏中等以上实验室。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0577",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+        "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+        "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合",
+        "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+      "explanation": "把 EXI1800 定义为中高通量中心实验室设备；X-Lab mini 做低门槛试机、急诊散样、小型实验室和多点部署补位",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0578",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "按具体设备和项目判断，不能平台级概括。",
+        "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+        "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+        "按具体设备和项目，不做平台级结论。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 的样本 / 全血口径：大型 / 中型 CLIA 常以血清、血浆为主；是否支持全血按项目 IFU。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0579",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "全自动 CLIA，中高通量中心实验室平台。",
+        "综合实验室供应商组合，不是一台机器。",
+        "免疫荧光 FIA 卡式平台。",
+        "综合实验室供应商组合。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "全自动 CLIA，中高通量中心实验室平台。",
+      "explanation": "肯尼亚 Chemoquip - Zybio EXI 1800 CLIA 的结构口径：全自动 CLIA，中高通量中心实验室平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0580",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Zybio EXI 1800 CLIA”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。",
+        "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+        "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+        "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+      "explanation": "把 EXI1800 放在中心实验室层级；X-Lab mini 攻预算有限、急诊散样、小型实验室、分点部署和 paid evaluation。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0581",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”更接近哪种定位风格？",
+      "choices": [
+        "成熟 FIA POCT 渠道",
+        "综合实验室供应渠道",
+        "常规实验室综合渠道",
+        "公共卫生 POC 特定项目"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "综合实验室供应渠道",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 的定位风格：综合实验室供应渠道。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0582",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”更接近哪种单人份形态？",
+      "choices": [
+        "韩国 Boditech 免疫荧光 FIA POCT",
+        "临床化学、血球、ESR、ELISA 和 POCT 组合渠道",
+        "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+        "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 的单人份形态：ELISA、ESR、HbA1c、Chemistry、Hematology 等常规实验室组合。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0583",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”更准确的温控口径是哪一项？",
+      "choices": [
+        "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。",
+        "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。",
+        "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+        "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 的温控口径：不是单一平台，温控和耗材按各产品 IFU。对外不要混成一个设备参数。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0584",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”更适合哪类客户或场景？",
+      "choices": [
+        "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+        "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点",
+        "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格",
+        "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 更适合的客户/场景：说明 Chemoquip 能覆盖实验室基础设备和试剂，重点是找到其免疫定量缺口和复购压力点。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0585",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Routine Lab Portfolio”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合",
+        "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+        "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+        "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+      "explanation": "不要只推仪器；把 X-Lab mini 放成可快速起量的免疫项目入口，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做组合",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0586",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+        "按具体设备和项目，不做平台级结论。",
+        "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+        "按具体设备和项目判断，不能平台级概括。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "按具体设备和项目判断，不能平台级概括。",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 的样本 / 全血口径：按具体设备和项目判断，不能平台级概括。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0587",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Chemoquip - Routine Lab Portfolio”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "免疫荧光 FIA 卡式平台。",
+        "综合实验室供应商组合，不是一台机器。",
+        "综合实验室供应商组合。",
+        "特定项目 POCT 平台。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "综合实验室供应商组合，不是一台机器。",
+      "explanation": "肯尼亚 Chemoquip - Routine Lab Portfolio 的结构口径：综合实验室供应商组合，不是一台机器。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0588",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Chemoquip - Routine Lab Portfolio”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+        "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+        "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。",
+      "explanation": "不要只卖仪器价格；把 X-Lab mini 讲成新增免疫复购线，围绕心肌、炎症、甲功、肿标、HbA1c、Ferritin 做可落地套餐。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0589",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”更接近哪种定位风格？",
+      "choices": [
+        "常规实验室综合渠道",
+        "公共卫生 POC 特定项目",
+        "成熟 FIA POCT 渠道",
+        "慢病 HbA1c POCT"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "成熟 FIA POCT 渠道",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 的定位风格：成熟 FIA POCT 渠道。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0590",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”更接近哪种单人份形态？",
+      "choices": [
+        "韩国 Boditech 免疫荧光 FIA POCT",
+        "临床化学、血球、ESR、ELISA 和 POCT 组合渠道",
+        "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+        "i-SENS 慢病 POCT，HbA1c 和 ACR 方向"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "韩国 Boditech 免疫荧光 FIA POCT",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 的单人份形态：韩国 Boditech 免疫荧光 FIA POCT。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0591",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”更准确的温控口径是哪一项？",
+      "choices": [
+        "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+        "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。",
+        "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。",
+        "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 的温控口径：按 Boditech 具体 reagent IFU 确认。不要直接说它长期常温或性能低。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0592",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”更适合哪类客户或场景？",
+      "choices": [
+        "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格",
+        "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单",
+        "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+        "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 更适合的客户/场景：这类代理已有 POCT 客户池和试剂复购习惯，是 X-Lab mini paid evaluation 的好目标。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0593",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Microbiology E.A - Boditech iChroma II / III”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+        "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+        "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+        "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合",
+      "explanation": "把 iChroma 当作入口客户池，不做攻击；问他们是否需要从 FIA 升级到 compact CLIA，尤其是甲功、肿标、Ferritin、心肌和炎症组合",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0594",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+        "按具体设备和项目，不做平台级结论。",
+        "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+        "HbA1c / ACR 等项目基质按 i-SENS IFU。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 的样本 / 全血口径：iChroma 多项目可支持全血 / 血清 / 血浆等，但必须按项目 IFU。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0595",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Boditech iChroma II / III”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "综合实验室供应商组合。",
+        "特定项目 POCT 平台。",
+        "免疫荧光 FIA 卡式平台。",
+        "慢病 POCT 专项平台。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "免疫荧光 FIA 卡式平台。",
+      "explanation": "肯尼亚 Microbiology E.A - Boditech iChroma II / III 的结构口径：免疫荧光 FIA 卡式平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0596",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Microbiology E.A - Boditech iChroma II / III”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+        "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+        "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+      "explanation": "把 iChroma 看成入口客户池，问客户是否想从 FIA 升级到 compact CLIA，尤其围绕甲功、肿标、Ferritin、心肌和炎症组合。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0597",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”更接近哪种定位风格？",
+      "choices": [
+        "公共卫生 POC 特定项目",
+        "慢病 HbA1c POCT",
+        "血糖监测慢病入口",
+        "常规实验室综合渠道"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "常规实验室综合渠道",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 的定位风格：常规实验室综合渠道。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0598",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”更接近哪种单人份形态？",
+      "choices": [
+        "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+        "临床化学、血球、ESR、ELISA 和 POCT 组合渠道",
+        "i-SENS 慢病 POCT，HbA1c 和 ACR 方向",
+        "血糖监测 POCT"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "临床化学、血球、ESR、ELISA 和 POCT 组合渠道",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 的单人份形态：临床化学、血球、ESR、ELISA 和 POCT 组合渠道。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0599",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”更准确的温控口径是哪一项？",
+      "choices": [
+        "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。",
+        "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。",
+        "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+        "血糖仪不属于免疫发光竞品，不要强行对比性能。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 的温控口径：不是单一设备口径；每类设备温控、样本量、通量和耗材都要单独确认。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0600",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”更适合哪类客户或场景？",
+      "choices": [
+        "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单",
+        "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台",
+        "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+        "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 更适合的客户/场景：这类公司适合从已有实验室客户中找免疫补位需求，而不是只谈单台仪器价格。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0601",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Microbiology E.A - Routine Lab Portfolio”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+        "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+        "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+        "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+      "explanation": "X-Lab mini 的打法是给他们一个新利润点：低起订、低维护、免疫项目复购，不影响其原有化学和血球业务",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0602",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+        "按具体设备和项目，不做平台级结论。",
+        "HbA1c / ACR 等项目基质按 i-SENS IFU。",
+        "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "按具体设备和项目，不做平台级结论。",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 的样本 / 全血口径：按具体设备和项目，不做平台级结论。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0603",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Microbiology E.A - Routine Lab Portfolio”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "特定项目 POCT 平台。",
+        "慢病 POCT 专项平台。",
+        "血糖监测设备。",
+        "综合实验室供应商组合。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "综合实验室供应商组合。",
+      "explanation": "肯尼亚 Microbiology E.A - Routine Lab Portfolio 的结构口径：综合实验室供应商组合。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0604",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Microbiology E.A - Routine Lab Portfolio”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+        "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。",
+        "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+      "explanation": "不抢其化学和血球业务，而是补免疫项目：外送项目、急诊散样、小样本量、多点部署。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0605",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”更接近哪种定位风格？",
+      "choices": [
+        "公共卫生 POC 特定项目",
+        "慢病 HbA1c POCT",
+        "血糖监测慢病入口",
+        "临床化学常规实验室"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "公共卫生 POC 特定项目",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 的定位风格：公共卫生 POC 特定项目。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0606",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”更接近哪种单人份形态？",
+      "choices": [
+        "i-SENS 慢病 POCT，HbA1c 和 ACR 方向",
+        "血糖监测 POCT",
+        "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+        "Cypress Diagnostics 临床化学和常规实验室设备组合"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "Abbott POC 特定项目平台，偏 CD4 和公共卫生项目",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 的单人份形态：Abbott POC 特定项目平台，偏 CD4 和公共卫生项目。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0607",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”更准确的温控口径是哪一项？",
+      "choices": [
+        "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。",
+        "血糖仪不属于免疫发光竞品，不要强行对比性能。",
+        "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+        "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 的温控口径：不是常规 CLIA/FIA 对标；不要拿 HIV/CD4 业务和 X-Lab mini 硬替代。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0608",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”更适合哪类客户或场景？",
+      "choices": [
+        "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单",
+        "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台",
+        "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+        "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 更适合的客户/场景：说明 Ultra Lab 有公共卫生和 POCT 渠道，但 m-PIMA 的项目属性很专，不覆盖常规免疫菜单。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0609",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+        "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+        "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点",
+        "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+      "explanation": "利用其 POCT 客户网络切入慢病、急诊和中小实验室免疫检测；不要碰对方 CD4 主线",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0610",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "HbA1c / ACR 等项目基质按 i-SENS IFU。",
+        "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+        "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+        "化学平台通常不是免疫全血直检卖点，按具体项目。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 的样本 / 全血口径：m-PIMA / PIMA 项目基质按 Abbott 对应产品资料；不作为常规免疫菜单平台讨论。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0611",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "特定项目 POCT 平台。",
+        "慢病 POCT 专项平台。",
+        "血糖监测设备。",
+        "临床化学平台，不是 CLIA/FIA。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "特定项目 POCT 平台。",
+      "explanation": "肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4 的结构口径：特定项目 POCT 平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0612",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - Abbott m-PIMA / PIMA CD4”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。",
+        "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+        "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+        "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+      "explanation": "不要碰 HIV/CD4 主线；借其 POCT 客户网络切入 HbA1c、Ferritin、CRP、PCT、心肌和甲功快速定量。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0613",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”更接近哪种定位风格？",
+      "choices": [
+        "血糖监测慢病入口",
+        "慢病 HbA1c POCT",
+        "临床化学常规实验室",
+        "综合医疗设备渠道"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "慢病 HbA1c POCT",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 的定位风格：慢病 HbA1c POCT。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0614",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”更接近哪种单人份形态？",
+      "choices": [
+        "血糖监测 POCT",
+        "Cypress Diagnostics 临床化学和常规实验室设备组合",
+        "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+        "i-SENS 慢病 POCT，HbA1c 和 ACR 方向"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "i-SENS 慢病 POCT，HbA1c 和 ACR 方向",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 的单人份形态：i-SENS 慢病 POCT，HbA1c 和 ACR 方向。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0615",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”更准确的温控口径是哪一项？",
+      "choices": [
+        "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。",
+        "血糖仪不属于免疫发光竞品，不要强行对比性能。",
+        "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+        "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 的温控口径：按 i-SENS IFU 确认温控和项目范围。不要说 X-Lab mini 完全替代 HbA1c 专机。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0616",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”更适合哪类客户或场景？",
+      "choices": [
+        "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+        "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台",
+        "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手",
+        "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 更适合的客户/场景：与我方 HbA1c 存在单项目重叠，但 X-Lab mini 的价值是多项目免疫平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0617",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - i-SENS A1Care”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点",
+        "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+        "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+        "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+      "explanation": "对有 A1Care 的客户，重点讲从单项目慢病 POCT 扩展到心肌、炎症、甲功、肿标、Ferritin 的平台化收益",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0618",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+        "化学平台通常不是免疫全血直检卖点，按具体项目。",
+        "不是具体仪器，不能讲样本类型。",
+        "HbA1c / ACR 等项目基质按 i-SENS IFU。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "HbA1c / ACR 等项目基质按 i-SENS IFU。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 的样本 / 全血口径：HbA1c / ACR 等项目基质按 i-SENS IFU。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0619",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS A1Care”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "血糖监测设备。",
+        "慢病 POCT 专项平台。",
+        "临床化学平台，不是 CLIA/FIA。",
+        "综合医疗设备渠道，不是一台竞品机器。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "慢病 POCT 专项平台。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS A1Care 的结构口径：慢病 POCT 专项平台。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0620",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - i-SENS A1Care”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+        "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+        "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+        "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。",
+      "explanation": "不讲替代 HbA1c 专机；讲一台 X-Lab mini 可从 HbA1c 延伸到 Ferritin、CRP、PCT、甲功、心肌和肿标。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0621",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”更接近哪种定位风格？",
+      "choices": [
+        "临床化学常规实验室",
+        "综合医疗设备渠道",
+        "血糖监测慢病入口",
+        "实验室台式"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "血糖监测慢病入口",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 的定位风格：血糖监测慢病入口。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0622",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”更接近哪种单人份形态？",
+      "choices": [
+        "血糖监测 POCT",
+        "Cypress Diagnostics 临床化学和常规实验室设备组合",
+        "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+        "ELFA 酶联免疫荧光，条卡/SPR 体系"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "血糖监测 POCT",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 的单人份形态：血糖监测 POCT。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0623",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”更准确的温控口径是哪一项？",
+      "choices": [
+        "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+        "血糖仪不属于免疫发光竞品，不要强行对比性能。",
+        "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。",
+        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "血糖仪不属于免疫发光竞品，不要强行对比性能。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 的温控口径：血糖仪不属于免疫发光竞品，不要强行对比性能。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0624",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”更适合哪类客户或场景？",
+      "choices": [
+        "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手",
+        "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验",
+        "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 更适合的客户/场景：不是直接竞品，但证明 Ultra Lab 有慢病 POCT 客户触点。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0625",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+        "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署",
+        "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点",
+      "explanation": "从糖尿病客户延伸到 HbA1c 和慢病管理相关免疫项目，作为客户网络切入点",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0626",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+        "化学平台通常不是免疫全血直检卖点，按具体项目。",
+        "不是具体仪器，不能讲样本类型。",
+        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 的样本 / 全血口径：血糖监测通常使用毛细血全血，但这不是免疫发光竞品口径。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0627",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "临床化学平台，不是 CLIA/FIA。",
+        "综合医疗设备渠道，不是一台竞品机器。",
+        "血糖监测设备。",
+        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "血糖监测设备。",
+      "explanation": "肯尼亚 Ultra Lab - i-SENS CareSens S Fit 的结构口径：血糖监测设备。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0628",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - i-SENS CareSens S Fit”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+        "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+        "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+      "explanation": "从糖尿病客户延伸到 HbA1c 和慢病相关免疫项目，作为渠道切入点而不是直接竞品。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0629",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”更接近哪种定位风格？",
+      "choices": [
+        "综合医疗设备渠道",
+        "实验室台式",
+        "床旁便携",
+        "临床化学常规实验室"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "临床化学常规实验室",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 的定位风格：临床化学常规实验室。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0630",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”更接近哪种单人份形态？",
+      "choices": [
+        "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+        "Cypress Diagnostics 临床化学和常规实验室设备组合",
+        "ELFA 酶联免疫荧光，条卡/SPR 体系",
+        "Roche CARDIAC 试纸条，单测试"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "Cypress Diagnostics 临床化学和常规实验室设备组合",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 的单人份形态：Cypress Diagnostics 临床化学和常规实验室设备组合。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0631",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”更准确的温控口径是哪一项？",
+      "choices": [
+        "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。",
+        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。",
+        "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+        "公开产品页未明确长期常温；即用型试纸或试纸加温流程，不等于常温试剂。对外不要直接讲常温。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 的温控口径：化学项目和免疫项目不要混讲；温控、耗材和通量按具体设备确认。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0632",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”更适合哪类客户或场景？",
+      "choices": [
+        "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验",
+        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户",
+        "急诊、救护车、床旁、已有罗氏体系客户",
+        "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 更适合的客户/场景：它代表 Ultra Lab 的常规实验室渠道，不是直接 CLIA/FIA 对手。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0633",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - Cypress CYAN 系列”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+        "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署",
+        "认可罗氏品牌和心血管证据；我们强调菜单扩展、常温、通量和多科室分散样本"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+      "explanation": "打法是补免疫菜单，不抢化学设备；把 X-Lab mini 定位为常规实验室之外的快速免疫收入线",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0634",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "不是具体仪器，不能讲样本类型。",
+        "化学平台通常不是免疫全血直检卖点，按具体项目。",
+        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。",
+        "主打全血床旁；公开页常见为肝素抗凝静脉全血。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "化学平台通常不是免疫全血直检卖点，按具体项目。",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 的样本 / 全血口径：化学平台通常不是免疫全血直检卖点，按具体项目。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0635",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Ultra Lab - Cypress CYAN 系列”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "综合医疗设备渠道，不是一台竞品机器。",
+        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。",
+        "试纸条单测试位，无多通道，极便携。",
+        "临床化学平台，不是 CLIA/FIA。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "临床化学平台，不是 CLIA/FIA。",
+      "explanation": "肯尼亚 Ultra Lab - Cypress CYAN 系列 的结构口径：临床化学平台，不是 CLIA/FIA。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0636",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Ultra Lab - Cypress CYAN 系列”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+        "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。",
+        "不要硬碰品牌；重点攻菜单更广、通量更高、多科室散样、常温物流和平台化免疫定量。"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+      "explanation": "补免疫菜单，不抢化学设备；问其化学客户是否外送甲功、肿标、心肌、炎症和 Ferritin。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0637",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”更接近哪种定位风格？",
+      "choices": [
+        "综合医疗设备渠道",
+        "实验室台式",
+        "床旁便携",
+        "手持式"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "综合医疗设备渠道",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 的定位风格：综合医疗设备渠道。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0638",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”更接近哪种单人份形态？",
+      "choices": [
+        "ELFA 酶联免疫荧光，条卡/SPR 体系",
+        "Roche CARDIAC 试纸条，单测试",
+        "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+        "一次性 cartridge，手持床旁综合检测"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 的单人份形态：医疗设备综合渠道，含 EDAN、Perlove、UNICOS、Candomed 等伙伴。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0639",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”更准确的温控口径是哪一项？",
+      "choices": [
+        "冷藏为主。公开 assay 页面常见 2-8℃；未见长期常温依据，不要外讲常温平台。",
+        "公开产品页未明确长期常温；即用型试纸或试纸加温流程，不等于常温试剂。对外不要直接讲常温。",
+        "冷藏为主，短时室温。官方常见 2-8℃到效期，18-30℃仅限短期放置，不能讲长期常温。",
+        "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。"
+      ],
+      "correctIndex": 3,
+      "answerLabel": "官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 的温控口径：官网伙伴页不是具体仪器参数；不能据此判断其已卖 CLIA 或 FIA。。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0640",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”更适合哪类客户或场景？",
+      "choices": [
+        "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验",
+        "已有梅里埃装机的检验科、感染/急诊项目客户、认可进口品牌客户",
+        "急诊、救护车、床旁、已有罗氏体系客户",
+        "ICU、手术室、急诊、救护、床旁综合检测"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 更适合的客户/场景：它更像综合医疗设备渠道，优势在医院关系和设备销售，不一定有免疫试剂复购经验。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0641",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Harley's - Partner Portfolio”时，更合适的切入话术是哪一项？",
+      "choices": [
+        "PPT 内部口径：我们支持全血、常温、3-10 分钟、无额外耗材、扫码定标、小型轻便，适合急诊和基层快速部署",
+        "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+        "认可罗氏品牌和心血管证据；我们强调菜单扩展、常温、通量和多科室分散样本",
+        "雅培强在多项目床旁综合检测；我们聚焦免疫定量菜单和化学发光/LICA 升级"
+      ],
+      "correctIndex": 1,
+      "answerLabel": "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+      "explanation": "如果接触 Harley's，先验证 IVD 团队和试剂销售能力，再谈 X-Lab mini；适合做政府和私立医院入口，但要谨慎给独家",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMP_INTL/COMP_DOM/COMP_KENYA"
+    },
+    {
+      "id": "q0642",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”在样本类型 / 全血支持上的更准确口径是哪一项？",
+      "choices": [
+        "公开常见 assay 仍以血清/血浆为主；全血不是主卖点，具体基质要回到单项目 IFU。",
+        "主打全血床旁；公开页常见为肝素抗凝静脉全血。",
+        "不是具体仪器，不能讲样本类型。",
+        "核心卖点之一是全血床旁，但不同 cartridge 的样本矩阵不同。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "不是具体仪器，不能讲样本类型。",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 的样本 / 全血口径：不是具体仪器，不能讲样本类型。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0643",
+      "kind": "choice",
+      "prompt": "竞品“肯尼亚 Harley's - Partner Portfolio”在通道、液路和结构上的更准确认识是哪一项？",
+      "choices": [
+        "综合医疗设备渠道，不是一台竞品机器。",
+        "12 测试位实验室台式条卡体系，自动流程和耗材依赖更重。",
+        "试纸条单测试位，无多通道，极便携。",
+        "手持单端口 cartridge 模式，依赖多机扩点。"
+      ],
+      "correctIndex": 0,
+      "answerLabel": "综合医疗设备渠道，不是一台竞品机器。",
+      "explanation": "肯尼亚 Harley's - Partner Portfolio 的结构口径：综合医疗设备渠道，不是一台竞品机器。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0644",
+      "kind": "choice",
+      "prompt": "面对“肯尼亚 Harley's - Partner Portfolio”时，更值得强调的可攻点 / 互补位是哪一项？",
+      "choices": [
+        "重点攻全血直检、4-30℃常温、3-10 分钟、少耗材和轻部署，定位急诊/基层补位而不是正面替代。",
+        "不要硬碰品牌；重点攻菜单更广、通量更高、多科室散样、常温物流和平台化免疫定量。",
+        "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+        "不跟它拼手持综合菜单；我们攻免疫定量菜单深度、12 通道并行、常温试剂和更像小平台的 throughput。"
+      ],
+      "correctIndex": 2,
+      "answerLabel": "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+      "explanation": "先验证 IVD 团队、售后工程师、仓储、注册能力和检验科客户，再谈 X-Lab mini paid evaluation。",
+      "category": "竞品应对",
+      "tags": [
+        "竞品",
+        "肯尼亚代理商竞品",
+        "销售"
+      ],
+      "source": "tools/generate_lica_visual_handbook.py:COMPETITOR_DETAILS"
+    },
+    {
+      "id": "q0645",
       "kind": "keyword",
       "prompt": "请用自己的话做一次“30 秒开场”，至少命中 4 组关键词。",
       "keywordGroups": [
@@ -12888,7 +14878,7 @@ window.SALES_TRAINER_DATA = {
       "inputPlaceholder": "请写你的 30 秒开场"
     },
     {
-      "id": "q0566",
+      "id": "q0646",
       "kind": "keyword",
       "prompt": "第一次和客户沟通时，先问哪四件事？至少命中 4 组关键词。",
       "keywordGroups": [
@@ -12929,7 +14919,7 @@ window.SALES_TRAINER_DATA = {
       "inputPlaceholder": "请写出你会先问客户的四件事"
     },
     {
-      "id": "q0567",
+      "id": "q0647",
       "kind": "keyword",
       "prompt": "遇到客户压价时，正确的回应框架是什么？至少命中 3 组关键词。",
       "keywordGroups": [
@@ -12963,7 +14953,7 @@ window.SALES_TRAINER_DATA = {
       "inputPlaceholder": "请写出你的压价回应"
     },
     {
-      "id": "q0568",
+      "id": "q0648",
       "kind": "choice",
       "prompt": "下面哪一项属于明确不能随口承诺的红线？",
       "choices": [
@@ -12983,7 +14973,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:RED_LINES"
     },
     {
-      "id": "q0569",
+      "id": "q0649",
       "kind": "choice",
       "prompt": "下面哪一项属于明确不能随口承诺的红线？",
       "choices": [
@@ -13003,7 +14993,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:RED_LINES"
     },
     {
-      "id": "q0570",
+      "id": "q0650",
       "kind": "choice",
       "prompt": "下面哪一项属于明确不能随口承诺的红线？",
       "choices": [
@@ -13023,7 +15013,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:RED_LINES"
     },
     {
-      "id": "q0571",
+      "id": "q0651",
       "kind": "choice",
       "prompt": "下面哪一项属于明确不能随口承诺的红线？",
       "choices": [
@@ -13043,7 +15033,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:RED_LINES"
     },
     {
-      "id": "q0572",
+      "id": "q0652",
       "kind": "choice",
       "prompt": "下面哪一项属于明确不能随口承诺的红线？",
       "choices": [
@@ -13063,7 +15053,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:RED_LINES"
     },
     {
-      "id": "q0573",
+      "id": "q0653",
       "kind": "choice",
       "prompt": "合同模块“区域与渠道”最需要先确认哪一点？",
       "choices": [
@@ -13083,7 +15073,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0574",
+      "id": "q0654",
       "kind": "choice",
       "prompt": "合同模块“付款条件”最需要先确认哪一点？",
       "choices": [
@@ -13103,7 +15093,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0575",
+      "id": "q0655",
       "kind": "choice",
       "prompt": "合同模块“发货与风险”最需要先确认哪一点？",
       "choices": [
@@ -13123,7 +15113,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0576",
+      "id": "q0656",
       "kind": "choice",
       "prompt": "合同模块“验收与异议”最需要先确认哪一点？",
       "choices": [
@@ -13143,7 +15133,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0577",
+      "id": "q0657",
       "kind": "choice",
       "prompt": "合同模块“退换货边界”最需要先确认哪一点？",
       "choices": [
@@ -13163,7 +15153,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0578",
+      "id": "q0658",
       "kind": "choice",
       "prompt": "合同模块“售后责任”最需要先确认哪一点？",
       "choices": [
@@ -13183,7 +15173,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0579",
+      "id": "q0659",
       "kind": "choice",
       "prompt": "合同模块“注册与合规”最需要先确认哪一点？",
       "choices": [
@@ -13203,7 +15193,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0580",
+      "id": "q0660",
       "kind": "choice",
       "prompt": "合同模块“追溯与召回”最需要先确认哪一点？",
       "choices": [
@@ -13223,7 +15213,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0581",
+      "id": "q0661",
       "kind": "choice",
       "prompt": "合同模块“保密与廉洁”最需要先确认哪一点？",
       "choices": [
@@ -13243,7 +15233,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0582",
+      "id": "q0662",
       "kind": "choice",
       "prompt": "合同模块“终止与争议”最需要先确认哪一点？",
       "choices": [
@@ -13263,7 +15253,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:CONTRACT"
     },
     {
-      "id": "q0583",
+      "id": "q0663",
       "kind": "choice",
       "prompt": "学习路径里，Day 1 的重点是什么？",
       "choices": [
@@ -13282,7 +15272,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0584",
+      "id": "q0664",
       "kind": "choice",
       "prompt": "学习路径里，Day 2 的重点是什么？",
       "choices": [
@@ -13301,7 +15291,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0585",
+      "id": "q0665",
       "kind": "choice",
       "prompt": "学习路径里，Day 3 的重点是什么？",
       "choices": [
@@ -13320,7 +15310,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0586",
+      "id": "q0666",
       "kind": "choice",
       "prompt": "学习路径里，Day 4 的重点是什么？",
       "choices": [
@@ -13339,7 +15329,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0587",
+      "id": "q0667",
       "kind": "choice",
       "prompt": "学习路径里，Day 5 的重点是什么？",
       "choices": [
@@ -13358,7 +15348,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0588",
+      "id": "q0668",
       "kind": "choice",
       "prompt": "学习路径里，Day 6 的重点是什么？",
       "choices": [
@@ -13377,7 +15367,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0589",
+      "id": "q0669",
       "kind": "choice",
       "prompt": "学习路径里，Day 7 的重点是什么？",
       "choices": [
@@ -13396,7 +15386,7 @@ window.SALES_TRAINER_DATA = {
       "source": "tools/generate_lica_visual_handbook.py:MEMORY_ORDER"
     },
     {
-      "id": "q0590",
+      "id": "q0670",
       "kind": "choice",
       "prompt": "价格锚点“X-Lab mini 仪器”更接近哪一项？",
       "choices": [
@@ -13416,7 +15406,7 @@ window.SALES_TRAINER_DATA = {
       "source": "trainer:pricing_anchors"
     },
     {
-      "id": "q0591",
+      "id": "q0671",
       "kind": "choice",
       "prompt": "价格锚点“基础甲功”更接近哪一项？",
       "choices": [
@@ -13436,7 +15426,7 @@ window.SALES_TRAINER_DATA = {
       "source": "trainer:pricing_anchors"
     },
     {
-      "id": "q0592",
+      "id": "q0672",
       "kind": "choice",
       "prompt": "价格锚点“急诊心肌”更接近哪一项？",
       "choices": [
@@ -13456,7 +15446,7 @@ window.SALES_TRAINER_DATA = {
       "source": "trainer:pricing_anchors"
     },
     {
-      "id": "q0593",
+      "id": "q0673",
       "kind": "choice",
       "prompt": "价格锚点“炎症感染”更接近哪一项？",
       "choices": [
@@ -13476,7 +15466,7 @@ window.SALES_TRAINER_DATA = {
       "source": "trainer:pricing_anchors"
     },
     {
-      "id": "q0594",
+      "id": "q0674",
       "kind": "choice",
       "prompt": "价格锚点“专科与利润项目”更接近哪一项？",
       "choices": [
